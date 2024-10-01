@@ -4,18 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <title>Sign Up</title>
   </head>
   <body>
-    Photo by
-    <a
-      href="https://unsplash.com/@the_real_napster?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-      >Dominik Lange</a
-    >
-    on
-    <a
-      href="https://unsplash.com/photos/blue-bird-perch-on-brown-tree-BFsm5vldl2I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-      >Unsplash</a
-    >
+    <section class="background">
+      <div class="logo-container">
+        <img src="./assets/images/logo.png" alt="bluejay" />
+        <p class="logo-text">BLUEJAY</p>
+      </div>
+      <p class="attribution">
+        Photo by
+        <a
+          href="https://unsplash.com/@the_real_napster?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          >Dominik Lange</a
+        >
+        on
+        <a
+          href="https://unsplash.com/photos/blue-bird-perch-on-brown-tree-BFsm5vldl2I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          >Unsplash</a
+        >
+      </p>
+    </section>
+    <section class="form-section">
+      <h2 class="header">
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams. Sign up
+        <em>now</em> to get started.
+      </h2>
+      <h2 class="sub-header">You <em>know</em> you want to.</h2>
+      <form class="form" id="sigunup-form">
+        <h2>Let's do this</h2>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="first_name">FIRST NAME</label>
+          </div>
+          <input type="text" id="first_name" name="first_name" />
+          <div class="form-field">
+            <label for="last_name">LAST NAME</label>
+            <input type="text" id="last_name" name="last_name" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="email">EMAIL</label
+            ><input type="email" id="email" name="email" />
+          </div>
+          <div class="form-field">
+            <label for="phone_number">PHONE NUMBER</label
+            ><input type="tel" id="phone_number" name="phone_number" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="password">PASSWORD</label
+            ><input type="password" id="password" name="password" />
+          </div>
+          <div class="form-field">
+            <label for="confirm_password">CONFIRM PASSWORD</label
+            ><input
+              type="password"
+              id="confirm_password"
+              name="confirm_password"
+            />
+          </div>
+        </div>
+      </form>
+      <button type="submit" form="sigunup-forms">Create account</button>
+      <p>Already have an account? <a href="#">Log in</a></p>
+    </section>
   </body>
 </html>

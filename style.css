@@ -11,3 +11,56 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+}
+
+.background {
+    width: 35%;
+    height: 100vh;
+    background-image: url("./assets/images/background.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  gap: 16px;
+  margin-top: 180px;
+  padding: 8px 0;
+}
+
+.logo-container .logo-text {
+  font-family: "catchregular", monospace;
+  font-size: 4rem;
+  color: white;
+  letter-spacing: 4px;
+}
+
+.logo-container img{
+  max-width: 150px;
+  height: auto;
+}
+
+.background .attribution {
+  color: white;
+  text-align: center;
+  font-size: 0.7rem;
+  font-family: "Roboto", sans-serif;
+  margin-top: auto;
+}
+
+.background .attribution a {
+  color: white;
+}
+
+.form-section {
+  width: 65%;
+  height: 100vh;
+  padding: 0 40px;
+}
