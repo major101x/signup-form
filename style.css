@@ -145,6 +145,7 @@ button {
   font-weight: 500;
   color: #ffffff;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 button + p {
